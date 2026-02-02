@@ -47,7 +47,9 @@ pip install -r requirements.txt
 
 This project is designed to work seamlessly with Google Colab! If you're developing in Colab and want to contribute:
 
-📖 **See our [Contributing Guide](CONTRIBUTING.md)** for detailed instructions on:
+🚀 **Quick Start**: [Colab Quick Start Guide](COLAB_QUICK_START.md) - Get up and running in 5 minutes!
+
+📖 **Detailed Guide**: [Contributing Guide](CONTRIBUTING.md) - Complete instructions on:
 - How to clone this repo in Google Colab
 - How to push your notebook code to GitHub
 - Authentication methods for pushing code
