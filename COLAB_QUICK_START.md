@@ -59,11 +59,13 @@ When prompted for credentials:
 - **Username**: Your GitHub username
 - **Password**: Your Personal Access Token (not your GitHub password!)
 
-To create a token:
-1. Go to https://github.com/settings/tokens
-2. Generate new token (classic)
-3. Select `repo` scope
-4. Copy the token and use it as your password
+To create a Personal Access Token:
+1. Go to https://github.com/settings/tokens (GitHub Settings > Developer settings > Personal access tokens)
+2. Click "Generate new token (classic)"
+3. Select `repo` scope (to allow repository access)
+4. Click "Generate token"
+5. Copy the token immediately (you won't be able to see it again!)
+6. Use this token as your password when Git prompts you
 
 ---
 
