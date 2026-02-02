@@ -170,7 +170,7 @@ For more advanced users who want automatic syncing.
 ### Large Files
 - Avoid committing large data files or model binaries
 - Use `.gitignore` to exclude them
-- Consider using Git LFS for large files or external storage
+- Consider using [Git LFS (Large File Storage)](https://git-lfs.github.com/) for files larger than 100MB, or use external storage like Google Drive
 
 ### Merge Conflicts
 - Pull latest changes before starting work: `!git pull`

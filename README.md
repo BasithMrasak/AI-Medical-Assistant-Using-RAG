@@ -50,9 +50,9 @@ The guide covers:
 ```
 AI-Medical-Assistant-Using-RAG/
 ├── README.md
-├── COLAB_GUIDE.md          # Guide for Google Colab integration
+├── COLAB_GUIDE.md           # Guide for Google Colab integration
 ├── requirements.txt         # Python dependencies
-└── .gitignore              # Git ignore rules
+└── .gitignore               # Git ignore rules
 ```
 
 ## Contributing
