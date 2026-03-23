@@ -13,7 +13,7 @@ Standard RAG systems retrieve and generate — but they don't verify. This proje
 
 ## Architecture
 
-![System Architecture](architecture.png)
+![System Architecture](Architecture.png)
 
 The pipeline begins with **Query Pre-processing** (abbreviation expansion + intent detection), branches into **Local FAISS Retrieval** and **PubMed API Retrieval** (for time-sensitive queries), merges candidates through a **Cross-Encoder Re-Ranker**, generates an answer via **Llama-2-7B**, and then passes it through the **Self-RAG Verification** layer. If the utility score falls below 4, the query is refined and the loop retries — up to 3 attempts.
 
